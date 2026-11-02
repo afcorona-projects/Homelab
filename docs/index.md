@@ -4,20 +4,30 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 01, 2026 2:34 PM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 02, 2026 5:15 AM**.
 
 ## Right now
 
 - **36** of 42 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.24, up 4h 5m, RAM 70.1 GB of 91.7 GB
+- Proxmox host **pve**: Proxmox VE 9.2.24, up 18h 46m, RAM 58.1 GB of 91.7 GB
 - TrueNAS pools: Safety 43%, protected 31%, tank 93%, tank2 40%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-Multiple services on the frigate and pve hosts experienced failures or timeouts, with frigate crashing repeatedly due to out-of-memory kills in container 119. The pve-cluster service also failed on the pve node alongside another unspecified service. A container on the unifi-os-server terminated with an exit code error.
+Multiple OOM kills occurred on the ai and frigate systems, with frigate.capture experiencing repeated failures in container 119. Service disruptions included timeouts for pve-cluster and frigate, alongside exit-code errors for caddy and unifi-os-server. A new Caddy site was added to map docs.example.com to the internal IP forgejo.
+
+**2026-11-02**
+
+- New Caddy site: docs.example.com → forgejo:80
+- Incident: OOM kill: a process on ai
+- Incident: OOM kill: a process on ai
+- Incident: OOM kill: a process on ai
+- Incident: OOM kill: a process on ai
+- Incident: caddy failed on caddy (exit-code)
+- Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
 
 **2026-11-01**
 

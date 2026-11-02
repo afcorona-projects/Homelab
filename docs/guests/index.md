@@ -36,7 +36,7 @@
 | [CT 132](ct-132.md) | searxng | running | searxng | 2 | 2 GB | searxng:8888 |
 | [CT 133](ct-133.md) | uptimekuma | running | uptimekuma | 1 | 1 GB |  |
 | [CT 134](ct-134.md) | scrypted | running | scrypted | 4 | 4 GB |  |
-| [CT 135](ct-135.md) | forgejo | running | forgejo | 2 | 2 GB |  |
+| [CT 135](ct-135.md) | forgejo | running | forgejo | 2 | 2 GB | docs.example.com |
 | [VM 200](vm-200.md) | arr | running | arr | 4 | 8 GB | arr:6767, arr:7878, arr:8080, arr:8085, arr:8989, arr:9696 |
 | [VM 201](vm-201.md) | vault | stopped | vault | 1 | 1 GB |  |
 | [VM 202](vm-202.md) | AMP-T1 | stopped | amp-t1 | 4 | 36 GB |  |

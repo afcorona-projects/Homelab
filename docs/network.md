@@ -1,6 +1,6 @@
 # Network and routes
 
-Caddy (CT 101) sites, from the copy of its Caddyfile taken Oct 31, 2026 8:24 PM.
+Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 02, 2026 5:10 AM.
 
 ```mermaid
 flowchart LR
@@ -15,6 +15,8 @@ flowchart LR
   caddy --> nopenwebui_8080["CT 130 openwebui<br/>openwebui:8080"]
   nprr_example_com["prr.example.com"] --> caddy
   caddy --> nplex_seerr_5055["CT 107 plex-seerr<br/>plex-seerr:5055"]
+  ndocs_example_com["docs.example.com"] --> caddy
+  caddy --> nforgejo_80["CT 135 forgejo<br/>forgejo:80"]
 ```
 
 | Name | Goes to | Machine | Notes |
@@ -24,6 +26,7 @@ flowchart LR
 | frigate.example.com | frigate:8971 | [CT 119 frigate](guests/ct-119.md) | home only, DNS challenge |
 | jarvis.example.com | openwebui:8080 | [CT 130 openwebui](guests/ct-130.md) | home only, DNS challenge |
 | prr.example.com | plex-seerr:5055 | [CT 107 plex-seerr](guests/ct-107.md) |  |
+| docs.example.com | forgejo:80 | [CT 135 forgejo](guests/ct-135.md) | home only, DNS challenge |
 
 DNS overrides aren't documented yet: OPNsense isn't set up yet (OPNSENSE_URL, OPNSENSE_KEY and OPNSENSE_SECRET are empty).
 

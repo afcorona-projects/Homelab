@@ -2,6 +2,16 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-02
+
+- New Caddy site: docs.example.com → forgejo:80
+- Incident: OOM kill: a process on ai
+- Incident: OOM kill: a process on ai
+- Incident: OOM kill: a process on ai
+- Incident: OOM kill: a process on ai
+- Incident: caddy failed on caddy (exit-code)
+- Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
+
 ## 2026-11-01
 
 - Incident: frigate failed on frigate (timeout)
