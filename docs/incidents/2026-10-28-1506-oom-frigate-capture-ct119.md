@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-10-28-1506-oom-frigate-capture-ct119.md"

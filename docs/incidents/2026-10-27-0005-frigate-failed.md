@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-10-27-0005-frigate-failed.md"

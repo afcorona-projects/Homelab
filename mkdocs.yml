@@ -1,0 +1,95 @@
+# The public copy of Jarvis Docs, written by docs-public.
+site_name: Homelab Docs
+site_url: https://afcorona-projects.github.io/Homelab/
+repo_url: https://github.com/afcorona-projects/Homelab
+repo_name: afcorona-projects/Homelab
+edit_uri: ""
+docs_dir: docs
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: ["."]
+      check_paths: false
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Home: index.md
+  - Containers and VMs:
+    - All: guests/index.md
+    - "CT 101 CaddyF2B": guests/ct-101.md
+    - "CT 102 homarr": guests/ct-102.md
+    - "CT 103 Encoder": guests/ct-103.md
+    - "CT 104 patchmon": guests/ct-104.md
+    - "CT 105 kometa": guests/ct-105.md
+    - "CT 106 jelly-seerr": guests/ct-106.md
+    - "CT 107 plex-seerr": guests/ct-107.md
+    - "CT 108 plex": guests/ct-108.md
+    - "CT 109 jellyfin": guests/ct-109.md
+    - "CT 110 tautulli": guests/ct-110.md
+    - "CT 111 navidrome": guests/ct-111.md
+    - "CT 112 Tailscale": guests/ct-112.md
+    - "CT 113 audiobookshelf": guests/ct-113.md
+    - "CT 114 komga": guests/ct-114.md
+    - "CT 115 Amp-UI": guests/ct-115.md
+    - "CT 116 romm": guests/ct-116.md
+    - "CT 117 speedtest-tracker": guests/ct-117.md
+    - "CT 118 qui": guests/ct-118.md
+    - "CT 119 frigate": guests/ct-119.md
+    - "CT 120 unifi-os-server": guests/ct-120.md
+    - "CT 121 Monitoring": guests/ct-121.md
+    - "CT 122 agregarr": guests/ct-122.md
+    - "CT 123 sparkyfitness": guests/ct-123.md
+    - "CT 124 ersatztv": guests/ct-124.md
+    - "CT 125 Coder": guests/ct-125.md
+    - "CT 126 coronafarms": guests/ct-126.md
+    - "CT 127 AI": guests/ct-127.md
+    - "CT 128 n8n": guests/ct-128.md
+    - "CT 129 ntfy": guests/ct-129.md
+    - "CT 130 openwebui": guests/ct-130.md
+    - "CT 131 jarvis": guests/ct-131.md
+    - "CT 132 searxng": guests/ct-132.md
+    - "CT 133 uptimekuma": guests/ct-133.md
+    - "CT 134 scrypted": guests/ct-134.md
+    - "CT 135 forgejo": guests/ct-135.md
+    - "VM 200 arr": guests/vm-200.md
+    - "VM 201 vault": guests/vm-201.md
+    - "VM 202 AMP-T1": guests/vm-202.md
+    - "VM 203 ha": guests/vm-203.md
+    - "VM 204 Amp-T1": guests/vm-204.md
+    - "VM 207 gtafivem": guests/vm-207.md
+    - "VM 208 MW3": guests/vm-208.md
+  - Proxmox host: host.md
+  - TrueNAS: truenas.md
+  - Network and routes: network.md
+  - Home Assistant: home-assistant.md
+  - Changelog: changelog.md
+  - Incidents: incidents/index.md
