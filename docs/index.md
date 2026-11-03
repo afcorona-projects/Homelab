@@ -4,14 +4,14 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 02, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 03, 2026 5:15 AM**.
 
 ## Right now
 
 - **36** of 42 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.24, up 18h 46m, RAM 58.1 GB of 91.7 GB
-- TrueNAS pools: Safety 43%, protected 31%, tank 93%, tank2 40%
+- Proxmox host **pve**: Proxmox VE 9.2.24, up 1d 18h, RAM 63.5 GB of 91.7 GB
+- TrueNAS pools: Safety 44%, protected 31%, tank 92%, tank2 42%
 
 Nothing needs a look.
 

@@ -92,4 +92,5 @@ nav:
   - Network and routes: network.md
   - Home Assistant: home-assistant.md
   - Changelog: changelog.md
+  - Weekly reports: weekly/index.md
   - Incidents: incidents/index.md
