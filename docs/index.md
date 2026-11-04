@@ -4,20 +4,24 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 03, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 04, 2026 5:15 AM**.
 
 ## Right now
 
 - **36** of 42 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.24, up 1d 18h, RAM 63.5 GB of 91.7 GB
-- TrueNAS pools: Safety 44%, protected 31%, tank 92%, tank2 42%
+- Proxmox host **pve**: Proxmox VE 9.2.25, up 2d 18h, RAM 65.7 GB of 91.7 GB
+- TrueNAS pools: Safety 45%, protected 31%, tank 92%, tank2 40%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-Multiple OOM kills occurred on the ai and frigate systems, with frigate.capture experiencing repeated failures in container 119. Service disruptions included timeouts for pve-cluster and frigate, alongside exit-code errors for caddy and unifi-os-server. A new Caddy site was added to map docs.example.com to the internal IP forgejo.
+The primary host pve received a minor update, while a new Caddy site was added to the configuration. Significant trouble emerged with multiple OOM kills occurring on the ai machine and within CT 119, alongside various service failures including timeouts on frigate and pve-cluster. Several services on pve and unifi-os-server also crashed with exit codes during this period.
+
+**2026-11-04**
+
+- Proxmox VE on pve updated: 9.2.24 → 9.2.25
 
 **2026-11-02**
 

@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-04
+
+- Proxmox VE on pve updated: 9.2.24 → 9.2.25
+
 ## 2026-11-02
 
 - New Caddy site: docs.example.com → forgejo:80
