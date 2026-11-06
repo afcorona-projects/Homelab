@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-06
+
+- New container: CT 136 debian at debian
+- New Uptime Kuma monitor: Jarvis bot Discord → http://debian:8099/health
+
 ## 2026-11-04
 
 - Proxmox VE on pve updated: 9.2.24 → 9.2.25

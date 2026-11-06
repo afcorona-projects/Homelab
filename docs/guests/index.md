@@ -37,10 +37,11 @@
 | [CT 133](ct-133.md) | uptimekuma | running | uptimekuma | 1 | 1 GB |  |
 | [CT 134](ct-134.md) | scrypted | running | scrypted | 4 | 4 GB |  |
 | [CT 135](ct-135.md) | forgejo | running | forgejo | 2 | 2 GB | docs.example.com |
+| [CT 136](ct-136.md) | debian | running | debian | 1 | 512 MB | debian:8099 |
 | [VM 200](vm-200.md) | arr | running | arr | 4 | 8 GB | arr:6767, arr:7878, arr:8080, arr:8085, arr:8989, arr:9696 |
 | [VM 201](vm-201.md) | vault | stopped | vault | 1 | 1 GB |  |
 | [VM 202](vm-202.md) | AMP-T1 | stopped | amp-t1 | 4 | 36 GB |  |
 | [VM 203](vm-203.md) | ha | running | ha | 4 | 6 GB | ha, ha.example.com |
 | [VM 204](vm-204.md) | Amp-T1 | running | amp-t1 | 4 | 24 GB |  |
 | [VM 207](vm-207.md) | gtafivem | stopped | gtafivem | 4 | 12 GB |  |
-| [VM 208](vm-208.md) | MW3 | stopped | mw3 | 4 | 6 GB |  |
+| [VM 208](vm-208.md) | MW3 | running | mw3 | 4 | 6 GB |  |

@@ -80,6 +80,7 @@ nav:
     - "CT 133 uptimekuma": guests/ct-133.md
     - "CT 134 scrypted": guests/ct-134.md
     - "CT 135 forgejo": guests/ct-135.md
+    - "CT 136 debian": guests/ct-136.md
     - "VM 200 arr": guests/vm-200.md
     - "VM 201 vault": guests/vm-201.md
     - "VM 202 AMP-T1": guests/vm-202.md
