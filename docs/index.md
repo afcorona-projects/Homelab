@@ -4,20 +4,25 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 06, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 07, 2026 5:15 AM**.
 
 ## Right now
 
 - **38** of 43 containers and VMs running
 - **30** of 30 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.25, up 4d 18h, RAM 75.4 GB of 91.7 GB
-- TrueNAS pools: Safety 46%, protected 31%, tank 92%, tank2 45%
+- Proxmox host **pve**: Proxmox VE 9.2.26, up 5d 18h, RAM 68.5 GB of 91.7 GB
+- TrueNAS pools: Safety 47%, protected 32%, tank 92%, tank2 46%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-A new Debian container and associated monitoring were added, while Proxmox VE received a minor version update. The period was marked by significant instability on the pve and CT 119 nodes, characterized by multiple OOM kills and service failures. Additionally, a new Caddy site was configured to point to an internal IP address.
+The homelab saw the addition of a new Debian container and Caddy site, alongside routine Proxmox updates and a disk expansion for an existing machine. However, the period was dominated by significant stability issues, particularly on the ai and frigate hosts, which suffered from repeated OOM kills and service failures. These out-of-memory incidents and associated timeouts suggest that resource limits on those specific nodes are insufficient for their current workloads.
+
+**2026-11-07**
+
+- CT 116 romm: disk rootfs 30 GB on vm1 → 50 GB on vm1
+- Proxmox VE on pve updated: 9.2.25 → 9.2.26
 
 **2026-11-06**
 

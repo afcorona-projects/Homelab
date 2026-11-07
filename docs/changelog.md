@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-07
+
+- CT 116 romm: disk rootfs 30 GB on vm1 → 50 GB on vm1
+- Proxmox VE on pve updated: 9.2.25 → 9.2.26
+
 ## 2026-11-06
 
 - New container: CT 136 debian at debian

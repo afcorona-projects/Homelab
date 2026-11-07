@@ -4,33 +4,33 @@
 
 | Setting | Now |
 |---|---|
-| Proxmox VE | 9.2.25 |
+| Proxmox VE | 9.2.26 |
 | Kernel | Linux 7.0.14-26-pve |
-| CPU | AMD Ryzen 9 9950X 16-Core Processor, 32 threads, 6% in use |
-| RAM | 75.4 GB used of 91.7 GB |
-| Uptime | 4d 18h |
+| CPU | AMD Ryzen 9 9950X 16-Core Processor, 32 threads, 2% in use |
+| RAM | 68.5 GB used of 91.7 GB |
+| Uptime | 5d 18h |
 
 ### ZFS pools
 
 | Pool | Size | Used | Health |
 |---|---|---|---|
 | bad1 | 464 GB | 0% | ONLINE |
-| bad2 | 464 GB | 76% | ONLINE |
+| bad2 | 464 GB | 78% | ONLINE |
 | rpool | 460 GB | 45% | ONLINE |
 | vm1 | 928 GB | 22% | ONLINE |
-| vm2 | 928 GB | 42% | ONLINE |
+| vm2 | 928 GB | 44% | ONLINE |
 | vm3 | 928 GB | 5% | ONLINE |
 
 ## Proxmox storage
 
 | Storage | Type | Holds | Size | Used |
 |---|---|---|---|---|
-| bad1 | zfspool | images, rootdir | 449.6 GB | 0% |
-| bad2 | zfspool | rootdir, images | 449.6 GB | 79% |
-| local | dir | vztmpl, iso, images | 430.6 GB | 44% |
-| pbs | pbs | backup | 899.1 GB | 46% |
+| bad1 | zfspool | rootdir, images | 449.6 GB | 0% |
+| bad2 | zfspool | rootdir, images | 449.6 GB | 81% |
+| local | dir | vztmpl, iso, images | 429.4 GB | 44% |
+| pbs | pbs | backup | 899.1 GB | 47% |
 | vm1 | zfspool | rootdir, images | 899.7 GB | 27% |
-| vm2 | zfspool | rootdir, images | 899.3 GB | 60% |
+| vm2 | zfspool | rootdir, images | 899.3 GB | 62% |
 | vm3 | zfspool | images, rootdir | 899.3 GB | 27% |
 
 ## Backup jobs
