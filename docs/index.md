@@ -4,20 +4,25 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 07, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 08, 2026 5:15 AM**.
 
 ## Right now
 
-- **38** of 43 containers and VMs running
+- **37** of 43 containers and VMs running
 - **30** of 30 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.26, up 5d 18h, RAM 68.5 GB of 91.7 GB
-- TrueNAS pools: Safety 47%, protected 32%, tank 92%, tank2 46%
+- Proxmox host **pve**: Proxmox VE 9.2.26, up 15h 53m, RAM 66.5 GB of 91.7 GB
+- TrueNAS pools: Safety 48%, protected 32%, tank 92%, tank2 46%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-The homelab saw the addition of a new Debian container and Caddy site, alongside routine Proxmox updates and a disk expansion for an existing machine. However, the period was dominated by significant stability issues, particularly on the ai and frigate hosts, which suffered from repeated OOM kills and service failures. These out-of-memory incidents and associated timeouts suggest that resource limits on those specific nodes are insufficient for their current workloads.
+The homelab saw the addition of a new Debian container and an expanded root disk for an existing one, alongside routine kernel and Proxmox VE updates. Service stability was notably impacted by multiple OOM kills on the ai machine and CT 119, as well as failures in the unifi-os-server and caddy services.
+
+**2026-11-08**
+
+- Kernel on pve: Linux 7.0.14-26-pve → Linux 7.0.14-28-pve
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-36f4230e97b751c5 failed on unifi-os-server (exit-code)
 
 **2026-11-07**
 
@@ -53,10 +58,6 @@ The homelab saw the addition of a new Debian container and Caddy site, alongside
 - Incident: OOM kill: frigate.capture in CT 119
 - Incident: OOM kill: frigate.capture in CT 119
 - Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-79afdded6fc56c6c failed on unifi-os-server (exit-code)
-
-**2026-10-31**
-
-- Jarvis started documenting the lab: 42 containers and VMs.
 
 ## Not covered on this run
 

@@ -44,4 +44,4 @@
 | [VM 203](vm-203.md) | ha | running | ha | 4 | 6 GB | ha, ha.example.com |
 | [VM 204](vm-204.md) | Amp-T1 | running | amp-t1 | 4 | 24 GB |  |
 | [VM 207](vm-207.md) | gtafivem | stopped | gtafivem | 4 | 12 GB |  |
-| [VM 208](vm-208.md) | MW3 | running | mw3 | 4 | 6 GB |  |
+| [VM 208](vm-208.md) | MW3 | stopped | mw3 | 4 | 6 GB |  |

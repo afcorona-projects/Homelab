@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-08
+
+- Kernel on pve: Linux 7.0.14-26-pve → Linux 7.0.14-28-pve
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-36f4230e97b751c5 failed on unifi-os-server (exit-code)
+
 ## 2026-11-07
 
 - CT 116 romm: disk rootfs 30 GB on vm1 → 50 GB on vm1
