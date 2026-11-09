@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-09
+
+- Uptime Kuma monitor removed: homepage
+
 ## 2026-11-08
 
 - Kernel on pve: Linux 7.0.14-26-pve → Linux 7.0.14-28-pve

@@ -3,7 +3,7 @@
 | ID | Name | Status | IP | CPU | RAM | Web |
 |---|---|---|---|---|---|---|
 | [CT 101](ct-101.md) | CaddyF2B | running | caddyf2b | 1 | 1 GB |  |
-| [CT 102](ct-102.md) | homarr | running | homarr | 2 | 2 GB | homarr:7575 |
+| [CT 102](ct-102.md) | homarr | running | homarr | 2 | 2 GB |  |
 | [CT 103](ct-103.md) | Encoder | running | encoder | 28 | 32 GB |  |
 | [CT 104](ct-104.md) | patchmon | running | patchmon | 2 | 2 GB |  |
 | [CT 105](ct-105.md) | kometa | running | kometa | 2 | 2 GB |  |

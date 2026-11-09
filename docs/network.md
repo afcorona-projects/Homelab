@@ -1,6 +1,6 @@
 # Network and routes
 
-Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 08, 2026 5:10 AM.
+Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 09, 2026 5:10 AM.
 
 ```mermaid
 flowchart LR
@@ -39,7 +39,6 @@ DNS overrides aren't documented yet: OPNsense isn't set up yet (OPNSENSE_URL, OP
 | Frigate | http://frigate:5000 | up | [CT 119 frigate](guests/ct-119.md) |
 | Grafana | http://monitoring:3000 | up | [CT 121 Monitoring](guests/ct-121.md) |
 | Home Assistant | http://ha | up | [VM 203 ha](guests/vm-203.md) |
-| homepage | http://homarr:7575 | up | [CT 102 homarr](guests/ct-102.md) |
 | Jarvis bot Discord | http://debian:8099/health | up | [CT 136 debian](guests/ct-136.md) |
 | jarvis-mcp | http://jarvis:8000/health | up | [CT 131 jarvis](guests/ct-131.md) |
 | Jellyfin | http://jellyfin:8096 | up | [CT 109 jellyfin](guests/ct-109.md) |
