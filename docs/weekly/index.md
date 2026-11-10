@@ -6,12 +6,12 @@ Every Sunday at 5:15 AM Jarvis writes up the lab's week: backups, disks, storage
 
 Since Sun Nov 8, 5:15 AM:
 
-- Backups: the one run was clean; 11 guests with no backup in 8 days
-- Disks: 2 problems this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u; ZFS pool bad2 on pve: /dev/disk/by-id/ata-CT500MX500SSD1_2213E621E335-part1 has errors (write 2)
-- Storage: Safety (TrueNAS) 49% (+45.3 GB this week), full in about 11 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 81% (+103.6 GB this week), full in about 2 weeks at this rate; protected (TrueNAS) 32% (+194.8 GB this week); rpool (Proxmox host) 45% (+1.2 GB this week); tank (TrueNAS) 92% (−204.2 GB this week); tank2 (TrueNAS) 47% (+1.1 TB this week), full in about 10 weeks at this rate; vm1 (Proxmox host) 23% (+4.9 GB this week); vm2 (Proxmox host) 43% (+57.6 GB this week), full in about 25 weeks at this rate; vm3 (Proxmox host) 5%
-- Library: 4 new movies (3 in 4K), 1 new episode of 1 show, 145 of 738 movies still without Latin American Spanish
-- Docker images: 6 of 27 containers with a newer image waiting (hassio_observer, hassio_supervisor, kometa, qbittorrent, patchmon-guacd-1, …); you updated 11 this week
-- Changes: 1 in the lab
+- Backups: all 2 runs clean; 11 guests with no backup in 8 days
+- Disks: 3 problems this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u; ZFS pool bad2 on pve: /dev/disk/by-id/ata-CT500MX500SSD1_2213E621E335-part1 has errors (write 2)
+- Storage: Safety (TrueNAS) 49% (+43 GB this week), full in about 11 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 82% (+68.1 GB this week), full in about 2 weeks at this rate; protected (TrueNAS) 32% (+194.8 GB this week); rpool (Proxmox host) 45% (+1.2 GB this week); tank (TrueNAS) 92% (−97.8 GB this week); tank2 (TrueNAS) 47% (+812.5 GB this week), full in about 11 weeks at this rate; vm1 (Proxmox host) 23% (+1.7 GB this week); vm2 (Proxmox host) 45% (+145.2 GB this week), full in about 16 weeks at this rate; vm3 (Proxmox host) 5%
+- Library: 5 new movies (3 in 4K), 1 new episode of 1 show, 145 of 739 movies still without Latin American Spanish
+- Docker images: 7 of 27 containers with a newer image waiting (hassio_observer, hassio_supervisor, kometa, qbittorrent, patchmon-guacd-1, …); you updated 11 this week
+- Changes: 2 in the lab
 - Incidents: none
 
 ## Past weeks

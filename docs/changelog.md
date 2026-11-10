@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-10
+
+- New Caddy site: abs.example.com → audiobookshelf:13378
+
 ## 2026-11-09
 
 - Uptime Kuma monitor removed: homepage

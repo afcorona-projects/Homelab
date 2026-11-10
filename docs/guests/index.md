@@ -14,7 +14,7 @@
 | [CT 110](ct-110.md) | tautulli | running | tautulli | 2 | 1 GB | tautulli:8181 |
 | [CT 111](ct-111.md) | navidrome | running | navidrome | 2 | 1 GB | navidrome:4533 |
 | [CT 112](ct-112.md) | Tailscale | running | tailscale | 1 | 1 GB |  |
-| [CT 113](ct-113.md) | audiobookshelf | running | audiobookshelf | 2 | 2 GB |  |
+| [CT 113](ct-113.md) | audiobookshelf | running | audiobookshelf | 2 | 2 GB | abs.example.com |
 | [CT 114](ct-114.md) | komga | running | komga | 1 | 2 GB | komga:25600 |
 | [CT 115](ct-115.md) | Amp-UI | running | amp-ui | 1 | 1 GB |  |
 | [CT 116](ct-116.md) | romm | running | romm | 2 | 4 GB | romm |

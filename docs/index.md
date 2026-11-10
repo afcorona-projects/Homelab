@@ -4,20 +4,24 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 09, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 10, 2026 5:15 AM**.
 
 ## Right now
 
 - **37** of 43 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.26, up 1d 15h, RAM 73.4 GB of 91.7 GB
+- Proxmox host **pve**: Proxmox VE 9.2.26, up 2d 15h, RAM 73.7 GB of 91.7 GB
 - TrueNAS pools: Safety 49%, protected 32%, tank 92%, tank2 47%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-A new Debian container and associated Caddy site were added to the infrastructure, while the Uptime Kuma homepage monitor was removed. The Proxmox host received two minor version updates and a kernel patch over the week. However, the period was marked by significant instability on the ai node due to repeated OOM kills and multiple service failures on caddy.
+A new container and Caddy site were added while an existing Uptime Kuma monitor was removed. The Proxmox host received kernel and software updates, and a container disk was expanded. An incident on the unifi-os-server container stands out as the only error in the period.
+
+**2026-11-10**
+
+- New Caddy site: abs.example.com → audiobookshelf:13378
 
 **2026-11-09**
 
@@ -41,16 +45,6 @@ A new Debian container and associated Caddy site were added to the infrastructur
 **2026-11-04**
 
 - Proxmox VE on pve updated: 9.2.24 → 9.2.25
-
-**2026-11-02**
-
-- New Caddy site: docs.example.com → forgejo:80
-- Incident: OOM kill: a process on ai
-- Incident: OOM kill: a process on ai
-- Incident: OOM kill: a process on ai
-- Incident: OOM kill: a process on ai
-- Incident: caddy failed on caddy (exit-code)
-- Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
 
 ## Not covered on this run
 

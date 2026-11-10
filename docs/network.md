@@ -1,12 +1,14 @@
 # Network and routes
 
-Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 09, 2026 5:10 AM.
+Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 10, 2026 5:10 AM.
 
 ```mermaid
 flowchart LR
   caddy(["Caddy · CT 101"])
   njf_example_com["jf.example.com"] --> caddy
   caddy --> njellyfin_8096["CT 109 jellyfin<br/>jellyfin:8096"]
+  nabs_example_com["abs.example.com"] --> caddy
+  caddy --> naudiobookshelf_13378["CT 113 audiobookshelf<br/>audiobookshelf:13378"]
   nha_example_com["ha.example.com"] --> caddy
   caddy --> nha_80["VM 203 ha<br/>ha:80"]
   nfrigate_example_com["frigate.example.com"] --> caddy
@@ -22,6 +24,7 @@ flowchart LR
 | Name | Goes to | Machine | Notes |
 |---|---|---|---|
 | jf.example.com | jellyfin:8096 | [CT 109 jellyfin](guests/ct-109.md) |  |
+| abs.example.com | audiobookshelf:13378 | [CT 113 audiobookshelf](guests/ct-113.md) |  |
 | ha.example.com | ha:80 | [VM 203 ha](guests/vm-203.md) | home only, DNS challenge |
 | frigate.example.com | frigate:8971 | [CT 119 frigate](guests/ct-119.md) | home only, DNS challenge |
 | jarvis.example.com | openwebui:8080 | [CT 130 openwebui](guests/ct-130.md) | home only, DNS challenge |
