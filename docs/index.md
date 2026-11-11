@@ -4,20 +4,24 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 10, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 11, 2026 5:15 AM**.
 
 ## Right now
 
 - **37** of 43 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.26, up 2d 15h, RAM 73.7 GB of 91.7 GB
-- TrueNAS pools: Safety 49%, protected 32%, tank 92%, tank2 47%
+- Proxmox host **pve**: Proxmox VE 9.2.26, up 3d 15h, RAM 73.5 GB of 91.7 GB
+- TrueNAS pools: Safety 50%, protected 32%, tank 92%, tank2 48%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-A new container and Caddy site were added while an existing Uptime Kuma monitor was removed. The Proxmox host received kernel and software updates, and a container disk was expanded. An incident on the unifi-os-server container stands out as the only error in the period.
+Recent activity includes the addition of a new Debian container and Caddy site, alongside storage expansion for a container and several software updates on the Proxmox host. However, multiple incidents involving exit code failures on the LLM and UniFi OS server stand out as potential trouble requiring attention.
+
+**2026-11-11**
+
+- Incident: llm failed on ai (exit-code)
 
 **2026-11-10**
 
