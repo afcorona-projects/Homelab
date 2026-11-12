@@ -4,6 +4,7 @@ OOM kills and failed services Jarvis found in Loki, newest first. Each one is wr
 
 | When | What | Where |
 |---|---|---|
+| Nov 11, 2026 8:40 AM | [OOM kill: frigate.embeddi in CT 119](2026-11-11-0840-oom-frigate-embeddi-ct119.md) | frigate, pve |
 | Nov 10, 2026 2:52 PM | [llm failed on ai (exit-code)](2026-11-10-1452-llm-failed.md) | ai |
 | Nov 07, 2026 1:24 PM | [bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-36f4230e97b751c5 failed on unifi-os-server (exit-code)](2026-11-07-1324-bd6890ba914464281443b114c638d97ba040751c.md) | unifi-os-server |
 | Nov 01, 2026 10:29 AM | [jarvis-docs-caddy failed on pve (exit-code), and 1 other service](2026-11-01-1029-jarvis-docs-caddy-failed.md) | pve, unifi-os-server |

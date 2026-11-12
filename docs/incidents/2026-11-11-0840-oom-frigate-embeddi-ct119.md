@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-11-0840-oom-frigate-embeddi-ct119.md"

@@ -6,13 +6,13 @@ Every Sunday at 5:15 AM Jarvis writes up the lab's week: backups, disks, storage
 
 Since Sun Nov 8, 5:15 AM:
 
-- Backups: all 3 runs clean; 11 guests with no backup in 8 days
+- Backups: all 4 runs clean; 11 guests with no backup in 8 days
 - Disks: 3 problems this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u; ZFS pool bad2 on pve: /dev/disk/by-id/ata-CT500MX500SSD1_2213E621E335-part1 has errors (write 2)
-- Storage: Safety (TrueNAS) 50% (+45.5 GB this week), full in about 11 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 84% (+46 GB this week), full in about 1 weeks at this rate; protected (TrueNAS) 32% (+194.8 GB this week); rpool (Proxmox host) 45% (+1.2 GB this week); tank (TrueNAS) 92% (+27.2 GB this week); tank2 (TrueNAS) 48% (+1.2 TB this week), full in about 11 weeks at this rate; vm1 (Proxmox host) 23% (+2.6 GB this week); vm2 (Proxmox host) 45% (+119.2 GB this week), full in about 18 weeks at this rate; vm3 (Proxmox host) 5%
-- Library: 11 new movies (5 in 4K), 41 new episodes of 4 shows, 145 of 745 movies still without Latin American Spanish
-- Docker images: 10 of 28 containers with a newer image waiting (hassio_observer, hassio_supervisor, kometa, qbittorrent, patchmon-guacd-1, …); you updated 11 this week
+- Storage: Safety (TrueNAS) 51% (+44 GB this week), full in about 11 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 84% (+47.4 GB this week), full in about 1 weeks at this rate; protected (TrueNAS) 32% (+194.8 GB this week); rpool (Proxmox host) 45% (+1.2 GB this week); tank (TrueNAS) 92% (+27.2 GB this week); tank2 (TrueNAS) 48% (+1.1 TB this week), full in about 12 weeks at this rate; vm1 (Proxmox host) 23% (+5 GB this week); vm2 (Proxmox host) 45% (+92.1 GB this week), full in about 19 weeks at this rate; vm3 (Proxmox host) 5%
+- Library: 13 new movies (5 in 4K), 41 new episodes of 4 shows, 145 of 747 movies still without Latin American Spanish
+- Docker images: 12 of 28 containers with a newer image waiting (hassio_observer, kometa, qbittorrent, patchmon-guacd-1, radarr, …); you updated 12 this week
 - Changes: 2 in the lab
-- Incidents: 1 (llm failed on ai (exit-code))
+- Incidents: 2 (OOM kill: frigate.embeddi in CT 119; llm failed on ai (exit-code))
 
 ## Past weeks
 

@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-12
+
+- Incident: OOM kill: frigate.embeddi in CT 119
+
 ## 2026-11-11
 
 - Incident: llm failed on ai (exit-code)
