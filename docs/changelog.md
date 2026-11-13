@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-13
+
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-13c9ad3618030068 failed on unifi-os-server (exit-code)
+
 ## 2026-11-12
 
 - Incident: OOM kill: frigate.embeddi in CT 119
