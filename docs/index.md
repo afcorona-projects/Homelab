@@ -4,20 +4,24 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 13, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 14, 2026 5:15 AM**.
 
 ## Right now
 
 - **37** of 43 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.26, up 18h 26m, RAM 64.2 GB of 91.7 GB
-- TrueNAS pools: Safety 51%, protected 32%, tank 92%, tank2 48%
+- Proxmox host **pve**: Proxmox VE 9.2.26, up 11h 6m, RAM 57.3 GB of 91.7 GB
+- TrueNAS pools: Safety 52%, protected 32%, tank 92%, tank2 48%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-Several services experienced failures or resource issues, including an OOM kill on fr.embeddi and exit code errors on unifi-os-server and llm. Operational changes included resizing the romm container disk, updating Proxmox and the host kernel, and adding a new container and Caddy site. A Uptime Kuma monitor was removed while a new one was added for the Jarvis bot.
+Multiple services experienced failures or were killed, including unifi-os-server, llm, and frigate due to an OOM event. Infrastructure changes included a Proxmox VE and kernel update, disk expansion for CT 116, and the removal of an Uptime Kuma monitor. A new Caddy site was added for abs.example.com.
+
+**2026-11-14**
+
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-52594ed44ecba93f failed on unifi-os-server (exit-code)
 
 **2026-11-13**
 
@@ -48,11 +52,6 @@ Several services experienced failures or resource issues, including an OOM kill 
 
 - CT 116 romm: disk rootfs 30 GB on vm1 → 50 GB on vm1
 - Proxmox VE on pve updated: 9.2.25 → 9.2.26
-
-**2026-11-06**
-
-- New container: CT 136 debian at debian
-- New Uptime Kuma monitor: Jarvis bot Discord → http://debian:8099/health
 
 ## Not covered on this run
 
