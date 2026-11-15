@@ -1,13 +1,13 @@
 # TrueNAS
 
-TrueNAS 25.10.7 on truenas.
+TrueNAS 25.10.8 on truenas.
 
 | Pool | Layout | Size | Used | Status |
 |---|---|---|---|---|
-| Safety | mirror of 2 | 899.3 GB | 52% | ONLINE |
+| Safety | mirror of 2 | 899.3 GB | 53% | ONLINE |
 | protected | raidz2 of 8 | 20.6 TB | 32% | ONLINE |
 | tank | disk of 1 | 16.2 TB | 92% | ONLINE |
-| tank2 | disk of 1 | 16.2 TB | 48% | ONLINE |
+| tank2 | disk of 1 | 16.2 TB | 49% | ONLINE |
 
 ## Shares
 

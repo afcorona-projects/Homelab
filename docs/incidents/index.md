@@ -4,6 +4,8 @@ OOM kills and failed services Jarvis found in Loki, newest first. Each one is wr
 
 | When | What | Where |
 |---|---|---|
+| Nov 14, 2026 10:19 PM | [komga failed on komga (exit-code), and 2 other services](2026-11-14-2219-komga-failed.md) | komga, pve, unifi-os-server |
+| Nov 14, 2026 5:36 AM | [bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-6abb8eefb4dde0f8 failed on unifi-os-server (exit-code)](2026-11-14-0536-bd6890ba914464281443b114c638d97ba040751c.md) | unifi-os-server |
 | Nov 13, 2026 6:11 PM | [bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-52594ed44ecba93f failed on unifi-os-server (exit-code)](2026-11-13-1811-bd6890ba914464281443b114c638d97ba040751c.md) | unifi-os-server |
 | Nov 12, 2026 10:51 AM | [bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-13c9ad3618030068 failed on unifi-os-server (exit-code)](2026-11-12-1051-bd6890ba914464281443b114c638d97ba040751c.md) | unifi-os-server |
 | Nov 11, 2026 8:40 AM | [OOM kill: frigate.embeddi in CT 119](2026-11-11-0840-oom-frigate-embeddi-ct119.md) | frigate, pve |

@@ -2,6 +2,30 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-15
+
+- CT 102 homarr: start at boot off
+- CT 104 patchmon: start at boot off
+- CT 105 kometa: start at boot off
+- CT 106 jelly-seerr: start at boot off
+- CT 107 plex-seerr: start at boot off
+- CT 110 tautulli: start at boot off
+- CT 111 navidrome: start at boot off
+- CT 113 audiobookshelf: start at boot off
+- CT 114 komga: start at boot off
+- CT 117 speedtest-tracker: start at boot off
+- CT 118 qui: start at boot off
+- CT 121 Monitoring: start at boot off
+- CT 122 agregarr: start at boot off
+- CT 123 sparkyfitness: start at boot off
+- CT 129 ntfy: start at boot off
+- CT 133 uptimekuma: start at boot off
+- VM 204 Amp-T1: start at boot on
+- Proxmox VE on pve updated: 9.2.26 → 9.2.27
+- TrueNAS updated: 25.10.7 → 25.10.8
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-6abb8eefb4dde0f8 failed on unifi-os-server (exit-code)
+- Incident: komga failed on komga (exit-code), and 2 other services
+
 ## 2026-11-14
 
 - Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-52594ed44ecba93f failed on unifi-os-server (exit-code)
