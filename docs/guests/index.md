@@ -16,7 +16,7 @@
 | [CT 112](ct-112.md) | Tailscale | running | tailscale | 1 | 1 GB |  |
 | [CT 113](ct-113.md) | audiobookshelf | stopped | audiobookshelf | 2 | 2 GB | abs.example.com |
 | [CT 114](ct-114.md) | komga | stopped | komga | 1 | 2 GB | komga:25600 |
-| [CT 115](ct-115.md) | Amp-UI | stopped | amp-ui | 1 | 1 GB |  |
+| [CT 115](ct-115.md) | Amp-UI | running | amp-ui | 1 | 1 GB |  |
 | [CT 116](ct-116.md) | romm | running | romm | 2 | 4 GB | romm |
 | [CT 117](ct-117.md) | speedtest-tracker | stopped | speedtest-tracker | 2 | 2 GB |  |
 | [CT 118](ct-118.md) | qui | stopped | qui | 1 | 1 GB |  |
