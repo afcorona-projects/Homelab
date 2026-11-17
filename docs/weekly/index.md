@@ -6,12 +6,12 @@ Every Sunday at 5:15 AM Jarvis writes up the lab's week: backups, disks, storage
 
 Since Sun Nov 15, 5:15 AM:
 
-- Backups: the one run was clean; 11 guests with no backup in 8 days
+- Backups: all 2 runs clean; 11 guests with no backup in 8 days
 - Disks: 1 problem this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u
-- Storage: Safety (TrueNAS) 54% (+48.5 GB this week), full in about 9 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 37% (−203.3 GB this week); protected (TrueNAS) 32%; rpool (Proxmox host) 45%; tank (TrueNAS) 92% (+19.7 GB this week); tank2 (TrueNAS) 49% (+368.8 GB this week), full in about 13 weeks at this rate; vm1 (Proxmox host) 23% (+5 GB this week); vm2 (Proxmox host) 47% (+35.8 GB this week), full in about 18 weeks at this rate; vm3 (Proxmox host) 5%
+- Storage: Safety (TrueNAS) 54% (+46.5 GB this week), full in about 10 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 37% (−208.9 GB this week); protected (TrueNAS) 32%; rpool (Proxmox host) 45%; tank (TrueNAS) 92% (+19.5 GB this week); tank2 (TrueNAS) 49% (+321.6 GB this week), full in about 14 weeks at this rate; vm1 (Proxmox host) 23% (+6.4 GB this week); vm2 (Proxmox host) 47% (+18 GB this week), full in about 19 weeks at this rate; vm3 (Proxmox host) 5% (+1.9 GB this week)
 - Library: 1 new movie (1 in 4K), 147 of 751 movies still without Latin American Spanish
-- Docker images: 9 of 22 containers with a newer image waiting (hassio_observer, qbittorrent, radarr, bazarr, gluetun, …)
-- Changes: none
+- Docker images: 13 of 28 containers with a newer image waiting (hassio_observer, qbittorrent, radarr, bazarr, gluetun, …)
+- Changes: 1 in the lab
 - Incidents: none
 
 ## Past weeks

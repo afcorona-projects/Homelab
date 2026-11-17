@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-17
+
+- VM 204 Amp-T1: CPU 4 → 12 cores
+
 ## 2026-11-15
 
 - CT 102 homarr: start at boot off

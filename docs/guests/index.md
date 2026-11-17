@@ -42,6 +42,6 @@
 | [VM 201](vm-201.md) | vault | stopped | vault | 1 | 1 GB |  |
 | [VM 202](vm-202.md) | AMP-T1 | stopped | amp-t1 | 4 | 36 GB |  |
 | [VM 203](vm-203.md) | ha | running | ha | 4 | 6 GB | ha, ha.example.com |
-| [VM 204](vm-204.md) | Amp-T1 | running | amp-t1 | 4 | 24 GB |  |
-| [VM 207](vm-207.md) | gtafivem | stopped | gtafivem | 4 | 12 GB |  |
+| [VM 204](vm-204.md) | Amp-T1 | running | amp-t1 | 12 | 24 GB |  |
+| [VM 207](vm-207.md) | gtafivem | running | gtafivem | 4 | 12 GB |  |
 | [VM 208](vm-208.md) | MW3 | stopped | mw3 | 4 | 6 GB |  |
