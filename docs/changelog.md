@@ -2,6 +2,16 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-19
+
+- CT 115 Amp-UI: start at boot on
+
+## 2026-11-18
+
+- Kernel on pve: Linux 7.0.14-28-pve → Linux 7.0.14-29-pve
+- Incident: OOM kill: a process on pve2
+- Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
+
 ## 2026-11-17
 
 - VM 204 Amp-T1: CPU 4 → 12 cores

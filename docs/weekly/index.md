@@ -6,13 +6,13 @@ Every Sunday at 5:15 AM Jarvis writes up the lab's week: backups, disks, storage
 
 Since Sun Nov 15, 5:15 AM:
 
-- Backups: all 2 runs clean; 11 guests with no backup in 8 days
-- Disks: 1 problem this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u
-- Storage: Safety (TrueNAS) 54% (+46.5 GB this week), full in about 10 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 37% (−208.9 GB this week); protected (TrueNAS) 32%; rpool (Proxmox host) 45%; tank (TrueNAS) 92% (+19.5 GB this week); tank2 (TrueNAS) 49% (+321.6 GB this week), full in about 14 weeks at this rate; vm1 (Proxmox host) 23% (+6.4 GB this week); vm2 (Proxmox host) 47% (+18 GB this week), full in about 19 weeks at this rate; vm3 (Proxmox host) 5% (+1.9 GB this week)
-- Library: 1 new movie (1 in 4K), 147 of 751 movies still without Latin American Spanish
-- Docker images: 13 of 28 containers with a newer image waiting (hassio_observer, qbittorrent, radarr, bazarr, gluetun, …)
-- Changes: 1 in the lab
-- Incidents: none
+- Backups: all 4 runs clean; 11 guests with no backup in 8 days
+- Disks: 2 problems this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u; ZFS pool bad2 on pve: /dev/disk/by-id/ata-CT500MX500SSD1_2213E621E335-part1 has errors (write 2)
+- Storage: Safety (TrueNAS) 55% (+39.8 GB this week), full in about 10 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 33% (−238 GB this week); protected (TrueNAS) 32%; rpool (Proxmox host) 45%; tank (TrueNAS) 92%; tank2 (TrueNAS) 49% (+248.2 GB this week), full in about 15 weeks at this rate; vm1 (Proxmox host) 23% (+4.3 GB this week); vm2 (Proxmox host) 51% (+56.5 GB this week), full in about 12 weeks at this rate; vm3 (Proxmox host) 5% (+1.3 GB this week)
+- Library: 2 new movies (1 in 4K), 148 of 752 movies still without Latin American Spanish
+- Docker images: 11 of 28 containers with a newer image waiting (hassio_observer, qbittorrent, bazarr, gluetun, prowlarr, …); you updated 2 this week
+- Changes: 3 in the lab
+- Incidents: 2 (jarvis-docs-caddy failed on pve (exit-code), and 1 other service; OOM kill: a process on pve2)
 
 ## Past weeks
 

@@ -4,20 +4,30 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 17, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 19, 2026 5:15 AM**.
 
 ## Right now
 
-- **22** of 43 containers and VMs running
+- **21** of 43 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.27, up 2d 6h, RAM 69.4 GB of 91.7 GB
-- TrueNAS pools: Safety 54%, protected 32%, tank 92%, tank2 49%
+- Proxmox host **pve**: Proxmox VE 9.2.27, up 22h 22m, RAM 66.0 GB of 91.7 GB
+- TrueNAS pools: Safety 55%, protected 32%, tank 92%, tank2 49%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-Amp-T1 received a significant CPU increase to 12 cores while the Proxmox host and TrueNAS storage were updated to newer versions. Most containerized media and utility services were switched to start at boot off, whereas Amp-T1 was set to start at boot on. Several services experienced failures including unifi-os-server, komga, and an OOM kill event on frigate, with a new Caddy site also being added.
+Multiple containers had their start-at-boot settings disabled, while VM 204 Amp-T1 received a significant CPU increase and was enabled to start at boot. The Proxmox host and TrueNAS were updated, but kernel upgrades and OOM kills on pve2 and CT 119 indicate potential resource strain or instability. Several services, including jarvis-docs-caddy, komga, and unifi-os-server, experienced failures with exit codes during this period.
+
+**2026-11-19**
+
+- CT 115 Amp-UI: start at boot on
+
+**2026-11-18**
+
+- Kernel on pve: Linux 7.0.14-28-pve → Linux 7.0.14-29-pve
+- Incident: OOM kill: a process on pve2
+- Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
 
 **2026-11-17**
 
@@ -53,14 +63,6 @@ Amp-T1 received a significant CPU increase to 12 cores while the Proxmox host an
 **2026-11-12**
 
 - Incident: OOM kill: frigate.embeddi in CT 119
-
-**2026-11-11**
-
-- Incident: llm failed on ai (exit-code)
-
-**2026-11-10**
-
-- New Caddy site: abs.example.com → audiobookshelf:13378
 
 ## Not covered on this run
 
