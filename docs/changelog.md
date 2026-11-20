@@ -2,6 +2,26 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-20
+
+- Removed: CT 102 homarr
+- Removed: CT 104 patchmon
+- Removed: CT 105 kometa
+- Removed: CT 106 jelly-seerr
+- Removed: CT 107 plex-seerr
+- Removed: CT 110 tautulli
+- Removed: CT 111 navidrome
+- Removed: CT 113 audiobookshelf
+- Removed: CT 114 komga
+- Removed: CT 117 speedtest-tracker
+- Removed: CT 118 qui
+- Removed: CT 121 Monitoring
+- Removed: CT 122 agregarr
+- Removed: CT 123 sparkyfitness
+- Removed: CT 129 ntfy
+- Removed: CT 133 uptimekuma
+- Backup job backup-3b30127f-7238 changed (now 2:00 to pbs)
+
 ## 2026-11-19
 
 - CT 115 Amp-UI: start at boot on
@@ -58,7 +78,7 @@ What changed in the lab, newest first, found by comparing each night's snapshot 
 
 ## 2026-11-10
 
-- New Caddy site: abs.example.com → audiobookshelf:13378
+- New Caddy site: abs.example.com → lan-host-1:13378
 
 ## 2026-11-09
 

@@ -4,20 +4,39 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 19, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 20, 2026 5:15 AM**.
 
 ## Right now
 
-- **21** of 43 containers and VMs running
+- **21** of 27 containers and VMs running
 - **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.27, up 22h 22m, RAM 66.0 GB of 91.7 GB
-- TrueNAS pools: Safety 55%, protected 32%, tank 92%, tank2 49%
+- Proxmox host **pve**: Proxmox VE 9.2.27, up 1d 22h, RAM 73.4 GB of 91.7 GB
+- TrueNAS pools: Safety 56%, protected 32%, tank 92%, tank2 51%
 
 Nothing needs a look.
 
 ## This week in the lab
 
-Multiple containers had their start-at-boot settings disabled, while VM 204 Amp-T1 received a significant CPU increase and was enabled to start at boot. The Proxmox host and TrueNAS were updated, but kernel upgrades and OOM kills on pve2 and CT 119 indicate potential resource strain or instability. Several services, including jarvis-docs-caddy, komga, and unifi-os-server, experienced failures with exit codes during this period.
+A large batch of containers including homarr, patchmon, and various media services were removed from the system after their auto-start settings were disabled. Significant resource changes included increasing the CPU cores for VM 204 Amp-T1 and updating the Proxmox VE, TrueNAS, and kernel versions. Troubleshooting is required for multiple service failures on unifi-os-server and pve, along with an OOM kill incident on pve2.
+
+**2026-11-20**
+
+- Removed: CT 102 homarr
+- Removed: CT 104 patchmon
+- Removed: CT 105 kometa
+- Removed: CT 106 jelly-seerr
+- Removed: CT 107 plex-seerr
+- Removed: CT 110 tautulli
+- Removed: CT 111 navidrome
+- Removed: CT 113 audiobookshelf
+- Removed: CT 114 komga
+- Removed: CT 117 speedtest-tracker
+- Removed: CT 118 qui
+- Removed: CT 121 Monitoring
+- Removed: CT 122 agregarr
+- Removed: CT 123 sparkyfitness
+- Removed: CT 129 ntfy
+- … and 2 more ([changelog](changelog.md))
 
 **2026-11-19**
 
@@ -59,10 +78,6 @@ Multiple containers had their start-at-boot settings disabled, while VM 204 Amp-
 **2026-11-13**
 
 - Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-13c9ad3618030068 failed on unifi-os-server (exit-code)
-
-**2026-11-12**
-
-- Incident: OOM kill: frigate.embeddi in CT 119
 
 ## Not covered on this run
 
