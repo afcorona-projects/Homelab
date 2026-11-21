@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-21
+
+- Proxmox VE on pve updated: 9.2.27 → 9.2.32
+- Incident: pve-cluster failed on pve2 (timeout)
+
 ## 2026-11-20
 
 - Removed: CT 102 homarr

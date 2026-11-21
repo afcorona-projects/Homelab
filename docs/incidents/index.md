@@ -4,6 +4,7 @@ OOM kills and failed services Jarvis found in Loki, newest first. Each one is wr
 
 | When | What | Where |
 |---|---|---|
+| Nov 20, 2026 10:24 PM | [pve-cluster failed on pve2 (timeout)](2026-11-20-2224-pve-cluster-failed.md) | pve2 |
 | Nov 18, 2026 6:53 AM | [jarvis-docs-caddy failed on pve (exit-code), and 1 other service](2026-11-18-0653-jarvis-docs-caddy-failed.md) | pve, unifi-os-server |
 | Nov 17, 2026 12:44 PM | [OOM kill: a process on pve2](2026-11-17-1244-oom-a-process.md) | komga, pve2 |
 | Nov 14, 2026 10:19 PM | [komga failed on komga (exit-code), and 2 other services](2026-11-14-2219-komga-failed.md) | komga, pve, unifi-os-server |

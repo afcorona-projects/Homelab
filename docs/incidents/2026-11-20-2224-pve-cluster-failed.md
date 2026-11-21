@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-20-2224-pve-cluster-failed.md"
