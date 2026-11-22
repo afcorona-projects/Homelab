@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-21-1600-logrotate-failed.md"

@@ -2,6 +2,12 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-22
+
+- CT 127 AI: start at boot off
+- Incident: OOM kill: a process on ai
+- Incident: logrotate failed on monitoring (exit-code)
+
 ## 2026-11-21
 
 - Proxmox VE on pve updated: 9.2.27 → 9.2.32

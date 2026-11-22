@@ -4,20 +4,26 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 21, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 22, 2026 5:15 AM**.
 
 ## Right now
 
-- **21** of 27 containers and VMs running
-- **29** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.32, up 2d 22h, RAM 73.3 GB of 91.7 GB
-- TrueNAS pools: Safety 56%, protected 32%, tank 92%, tank2 49%
+- **20** of 27 containers and VMs running
+- **28** of 29 Uptime Kuma monitors up
+- Proxmox host **pve**: Proxmox VE 9.2.32, up 3d 22h, RAM 48.4 GB of 91.7 GB
+- TrueNAS pools: Safety 57%, protected 32%, tank 92%, tank2 49%
 
-Nothing needs a look.
+!!! warning "Needs a look"
+
+    - Uptime Kuma: llama-ai is down
 
 ## This week in the lab
 
-A massive cleanup occurred on November 20th with the removal of fifteen containers, following a period where their auto-start settings were disabled. The Proxmox host received a kernel update and a minor version upgrade, though this was accompanied by an OOM kill incident and a cluster timeout error. Additionally, the Amp-T1 virtual machine had its CPU cores increased to twelve to handle its workload.
+**2026-11-22**
+
+- CT 127 AI: start at boot off
+- Incident: OOM kill: a process on ai
+- Incident: logrotate failed on monitoring (exit-code)
 
 **2026-11-21**
 
@@ -75,10 +81,6 @@ A massive cleanup occurred on November 20th with the removal of fifteen containe
 - CT 123 sparkyfitness: start at boot off
 - CT 129 ntfy: start at boot off
 - … and 6 more ([changelog](changelog.md))
-
-**2026-11-14**
-
-- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-52594ed44ecba93f failed on unifi-os-server (exit-code)
 
 ## Not covered on this run
 

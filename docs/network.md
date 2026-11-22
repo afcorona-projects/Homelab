@@ -1,6 +1,6 @@
 # Network and routes
 
-Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 21, 2026 5:10 AM.
+Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 22, 2026 5:10 AM.
 
 ```mermaid
 flowchart LR
@@ -47,7 +47,7 @@ DNS overrides aren't documented yet: OPNsense isn't set up yet (OPNSENSE_URL, OP
 | Jellyfin | http://jellyfin:8096 | up | [CT 109 jellyfin](guests/ct-109.md) |
 | Jellyseerr | http://lan-host-4:5055 | up |  |
 | Komga | http://lan-host-5:25600 | up |  |
-| llama-ai | http://ai:8080/health | up | [CT 127 AI](guests/ct-127.md) |
+| llama-ai | http://ai:8080/health | down | [CT 127 AI](guests/ct-127.md) |
 | Loki | http://lan-host-3:3100/ready | up |  |
 | n8n | http://n8n:5678/healthz | up | [CT 128 n8n](guests/ct-128.md) |
 | Navidrome | http://lan-host-6:4533 | up |  |

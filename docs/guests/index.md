@@ -14,7 +14,7 @@
 | [CT 124](ct-124.md) | ersatztv | running | ersatztv | 2 | 1 GB | ersatztv:8409 |
 | [CT 125](ct-125.md) | Coder | stopped | coder | 6 | 8 GB |  |
 | [CT 126](ct-126.md) | coronafarms | stopped | coronafarms | 2 | 2 GB |  |
-| [CT 127](ct-127.md) | AI | running | ai | 32 | 48 GB | ai:8080 |
+| [CT 127](ct-127.md) | AI | stopped | ai | 32 | 48 GB | ai:8080 |
 | [CT 128](ct-128.md) | n8n | running | n8n | 2 | 2 GB | n8n:5678 |
 | [CT 130](ct-130.md) | openwebui | running | openwebui | 4 | 8 GB | openwebui:8080, jarvis.example.com |
 | [CT 131](ct-131.md) | jarvis | running | jarvis | 1 | 1 GB | jarvis:8000, jarvis.example.com |
