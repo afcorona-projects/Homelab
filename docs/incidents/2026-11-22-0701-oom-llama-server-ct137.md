@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-22-0701-oom-llama-server-ct137.md"

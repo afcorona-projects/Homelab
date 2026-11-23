@@ -1,12 +1,14 @@
 # Network and routes
 
-Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 22, 2026 5:10 AM.
+Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 23, 2026 5:10 AM.
 
 ```mermaid
 flowchart LR
   caddy(["Caddy · CT 101"])
   njf_example_com["jf.example.com"] --> caddy
   caddy --> njellyfin_8096["CT 109 jellyfin<br/>jellyfin:8096"]
+  nrom_example_com["rom.example.com"] --> caddy
+  caddy --> nromm["CT 116 romm<br/>romm"]
   nabs_example_com["abs.example.com"] --> caddy
   caddy --> nlan_host_1_13378["lan-host-1:13378"]
   nha_example_com["ha.example.com"] --> caddy
@@ -24,6 +26,7 @@ flowchart LR
 | Name | Goes to | Machine | Notes |
 |---|---|---|---|
 | jf.example.com | jellyfin:8096 | [CT 109 jellyfin](guests/ct-109.md) |  |
+| rom.example.com | romm | [CT 116 romm](guests/ct-116.md) |  |
 | abs.example.com | lan-host-1:13378 |  |  |
 | ha.example.com | ha:80 | [VM 203 ha](guests/vm-203.md) | home only, DNS challenge |
 | frigate.example.com | frigate:8971 | [CT 119 frigate](guests/ct-119.md) | home only, DNS challenge |
@@ -31,7 +34,11 @@ flowchart LR
 | prr.example.com | lan-host-2:5055 |  |  |
 | docs.example.com | forgejo:80 | [CT 135 forgejo](guests/ct-135.md) | home only, DNS challenge |
 
-DNS overrides aren't documented yet: OPNsense isn't set up yet (OPNSENSE_URL, OPNSENSE_KEY and OPNSENSE_SECRET are empty).
+## DNS overrides (Unbound on OPNsense)
+
+| Name | Type | Answer | Machine | Notes |
+|---|---|---|---|---|
+| example.com | A | caddyf2b | [CT 101 CaddyF2B](guests/ct-101.md) |  |
 
 ## Uptime Kuma monitors
 
@@ -47,12 +54,12 @@ DNS overrides aren't documented yet: OPNsense isn't set up yet (OPNSENSE_URL, OP
 | Jellyfin | http://jellyfin:8096 | up | [CT 109 jellyfin](guests/ct-109.md) |
 | Jellyseerr | http://lan-host-4:5055 | up |  |
 | Komga | http://lan-host-5:25600 | up |  |
-| llama-ai | http://ai:8080/health | down | [CT 127 AI](guests/ct-127.md) |
+| llama-ai | http://lan-host-6:8080/health | down |  |
 | Loki | http://lan-host-3:3100/ready | up |  |
 | n8n | http://n8n:5678/healthz | up | [CT 128 n8n](guests/ct-128.md) |
-| Navidrome | http://lan-host-6:4533 | up |  |
-| ntfy | http://lan-host-7/v1/health | up |  |
-| ntfy | http://lan-host-7 | up |  |
+| Navidrome | http://lan-host-7:4533 | up |  |
+| ntfy | http://lan-host-8/v1/health | up |  |
+| ntfy | http://lan-host-8 | up |  |
 | openwebui | http://openwebui:8080/health | up | [CT 130 openwebui](guests/ct-130.md) |
 | openwebui-https | https://jarvis.example.com | up |  |
 | plex | http://plex:32400/identity | up | [CT 108 plex](guests/ct-108.md) |
@@ -64,5 +71,5 @@ DNS overrides aren't documented yet: OPNsense isn't set up yet (OPNSENSE_URL, OP
 | sabnzbd | http://arr:8085 | up | [VM 200 arr](guests/vm-200.md) |
 | SearXNG | http://searxng:8888/healthz | up | [CT 132 searxng](guests/ct-132.md) |
 | sonarr | http://arr:8989 | up | [VM 200 arr](guests/vm-200.md) |
-| Tautulli | http://lan-host-8:8181 | up |  |
+| Tautulli | http://lan-host-9:8181 | up |  |
 | UniFi OS | https://unifi-os-server:11443 | up | [CT 120 unifi-os-server](guests/ct-120.md) |

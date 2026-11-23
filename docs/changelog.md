@@ -2,6 +2,12 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-23
+
+- Removed: CT 127 AI
+- New Caddy site: rom.example.com → romm
+- Incident: OOM kill: llama-server in CT 137
+
 ## 2026-11-22
 
 - CT 127 AI: start at boot off
