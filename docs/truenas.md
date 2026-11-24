@@ -6,7 +6,7 @@ TrueNAS 25.10.8 on truenas.
 |---|---|---|---|---|
 | Safety | mirror of 2 | 899.3 GB | 58% | ONLINE |
 | protected | raidz2 of 8 | 20.6 TB | 32% | ONLINE |
-| tank | disk of 1 | 16.2 TB | 92% | ONLINE |
+| tank | disk of 1 | 16.2 TB | 93% | ONLINE |
 | tank2 | disk of 1 | 16.2 TB | 49% | ONLINE |
 
 ## Shares
