@@ -6,13 +6,13 @@ Every Sunday at 5:15 AM Jarvis writes up the lab's week: backups, disks, storage
 
 Since Sun Nov 22, 5:15 AM:
 
-- Backups: all 2 runs clean; 7 guests with no backup in 8 days
+- Backups: all 3 runs clean; 7 guests with no backup in 8 days
 - Disks: 2 problems this week: TrueNAS warning: homepage: API key has been revoked and must either be renewed or deleted. Revoke reason: Attempt to use over an insecure transport. Once the maintenance is complete, API client configuration must be u; ZFS pool bad2 on pve: /dev/disk/by-id/ata-CT500MX500SSD1_2213E621E335-part1 has errors (write 2)
-- Storage: Safety (TrueNAS) 58% (+35.3 GB this week), full in about 9 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 42% (+22.4 GB this week); protected (TrueNAS) 32%; rpool (Proxmox host) 45%; tank (TrueNAS) 93% (+225.1 GB this week); tank2 (TrueNAS) 49% (+49.5 GB this week), full in about 19 weeks at this rate; vm1 (Proxmox host) 16% (−69.4 GB this week); vm2 (Proxmox host) 33% (−133.2 GB this week); vm3 (Proxmox host) 5% (−1.5 GB this week)
-- Library: 2 new movies (0 in 4K), 3 new episodes of 2 shows, 149 of 756 movies still without Latin American Spanish
+- Storage: Safety (TrueNAS) 59% (+38.8 GB this week), full in about 9 weeks at this rate; bad1 (Proxmox host) 0%; bad2 (Proxmox host) 42% (+131.6 GB this week); protected (TrueNAS) 32%; rpool (Proxmox host) 45%; tank (TrueNAS) 93% (+225.1 GB this week); tank2 (TrueNAS) 49% (+36.1 GB this week), full in about 20 weeks at this rate; vm1 (Proxmox host) 16% (−65.5 GB this week); vm2 (Proxmox host) 38% (−89.9 GB this week); vm3 (Proxmox host) 5% (−1.5 GB this week)
+- Library: 3 new movies (0 in 4K), 89 new episodes of 3 shows, 149 of 757 movies still without Latin American Spanish
 - Docker images: 12 of 28 containers with a newer image waiting (hassio_observer, qbittorrent, bazarr, gluetun, prowlarr, …)
-- Changes: 2 in the lab
-- Incidents: 1 (OOM kill: llama-server in CT 137)
+- Changes: 3 in the lab
+- Incidents: 2 (scrypted failed on scrypted (exit-code); OOM kill: llama-server in CT 137)
 
 ## Past weeks
 

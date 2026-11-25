@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-25-0431-scrypted-failed.md"

@@ -4,14 +4,14 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 24, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 25, 2026 5:15 AM**.
 
 ## Right now
 
-- **20** of 26 containers and VMs running
+- **22** of 27 containers and VMs running
 - **28** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.32, up 5d 22h, RAM 51.2 GB of 91.7 GB
-- TrueNAS pools: Safety 58%, protected 32%, tank 93%, tank2 49%
+- Proxmox host **pve**: Proxmox VE 9.2.32, up 6d 22h, RAM 68.9 GB of 91.7 GB
+- TrueNAS pools: Safety 59%, protected 32%, tank 93%, tank2 49%
 
 !!! warning "Needs a look"
 
@@ -19,7 +19,12 @@ Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 24, 202
 
 ## This week in the lab
 
-A significant number of containers were removed on November 20th, including homarr, jelly-seerr, plex-seerr, and various monitoring and media tools, while VM 204 Amp-T1 received a CPU upgrade from 4 to 12 cores. Several incidents occurred involving OOM kills on the AI containers and the Proxmox host, alongside a failed logrotate job and a cluster timeout on pve2. Additionally, the Caddy site rom.example.com was mapped to romm, Proxmox VE was updated to version 9.2.32, and the kernel was updated on November 18th.
+Multiple containers were removed on November 20th, including homarr, jelly-seerr, and monitoring tools, while a new dispatcharr container was added on November 25th. Significant memory pressure issues are evident from several OOM kills on CT 137, the ai machine, and the pve2 node, alongside a failed Caddy site configuration. System updates were applied to Proxmox VE and the kernel, but cluster timeouts and service exit codes indicate ongoing instability.
+
+**2026-11-25**
+
+- New container: CT 138 dispatcharr at dispatcharr
+- Incident: scrypted failed on scrypted (exit-code)
 
 **2026-11-23**
 
@@ -66,10 +71,6 @@ A significant number of containers were removed on November 20th, including homa
 - Kernel on pve: Linux 7.0.14-28-pve → Linux 7.0.14-29-pve
 - Incident: OOM kill: a process on pve2
 - Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
-
-**2026-11-17**
-
-- VM 204 Amp-T1: CPU 4 → 12 cores
 
 ## Not covered on this run
 

@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-25
+
+- New container: CT 138 dispatcharr at dispatcharr
+- Incident: scrypted failed on scrypted (exit-code)
+
 ## 2026-11-23
 
 - Removed: CT 127 AI
