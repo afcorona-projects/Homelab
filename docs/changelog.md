@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-26
+
+- Kernel on pve: Linux 7.0.14-29-pve → Linux 7.0.14-30-pve
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-4f47cf8f3c0ba540 failed on unifi-os-server (exit-code)
+
 ## 2026-11-25
 
 - New container: CT 138 dispatcharr at dispatcharr

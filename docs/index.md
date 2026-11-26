@@ -4,14 +4,14 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 25, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 26, 2026 5:15 AM**.
 
 ## Right now
 
-- **22** of 27 containers and VMs running
+- **21** of 27 containers and VMs running
 - **28** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.32, up 6d 22h, RAM 68.9 GB of 91.7 GB
-- TrueNAS pools: Safety 59%, protected 32%, tank 93%, tank2 49%
+- Proxmox host **pve**: Proxmox VE 9.2.32, up 4h 28m, RAM 38.0 GB of 91.7 GB
+- TrueNAS pools: Safety 60%, protected 32%, tank 93%, tank2 50%
 
 !!! warning "Needs a look"
 
@@ -19,7 +19,12 @@ Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 25, 202
 
 ## This week in the lab
 
-Multiple containers were removed on November 20th, including homarr, jelly-seerr, and monitoring tools, while a new dispatcharr container was added on November 25th. Significant memory pressure issues are evident from several OOM kills on CT 137, the ai machine, and the pve2 node, alongside a failed Caddy site configuration. System updates were applied to Proxmox VE and the kernel, but cluster timeouts and service exit codes indicate ongoing instability.
+Multiple containers including dispatcharr, homarr, patchmon, and others were removed or added, while the Proxmox VE kernel and system version were updated. Several incidents occurred involving failed containers, OOM kills on llama-server and ai, and a timeout in the pve-cluster service.
+
+**2026-11-26**
+
+- Kernel on pve: Linux 7.0.14-29-pve → Linux 7.0.14-30-pve
+- Incident: bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-4f47cf8f3c0ba540 failed on unifi-os-server (exit-code)
 
 **2026-11-25**
 
@@ -65,13 +70,3 @@ Multiple containers were removed on November 20th, including homarr, jelly-seerr
 **2026-11-19**
 
 - CT 115 Amp-UI: start at boot on
-
-**2026-11-18**
-
-- Kernel on pve: Linux 7.0.14-28-pve → Linux 7.0.14-29-pve
-- Incident: OOM kill: a process on pve2
-- Incident: jarvis-docs-caddy failed on pve (exit-code), and 1 other service
-
-## Not covered on this run
-
-- ha: Home Assistant isn't set up yet (HA_URL and HA_TOKEN are empty)

@@ -4,6 +4,7 @@ OOM kills and failed services Jarvis found in Loki, newest first. Each one is wr
 
 | When | What | Where |
 |---|---|---|
+| Nov 26, 2026 12:48 AM | [bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-4f47cf8f3c0ba540 failed on unifi-os-server (exit-code)](2026-11-26-0048-bd6890ba914464281443b114c638d97ba040751c.md) | unifi-os-server |
 | Nov 25, 2026 4:31 AM | [scrypted failed on scrypted (exit-code)](2026-11-25-0431-scrypted-failed.md) | scrypted |
 | Nov 22, 2026 7:01 AM | [OOM kill: llama-server in CT 137](2026-11-22-0701-oom-llama-server-ct137.md) | pve2 |
 | Nov 21, 2026 4:00 PM | [logrotate failed on monitoring (exit-code)](2026-11-21-1600-logrotate-failed.md) | monitoring |
