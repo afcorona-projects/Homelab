@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-26-0545-jarvis-snapshot-failed.md"

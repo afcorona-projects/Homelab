@@ -4,14 +4,14 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 26, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 27, 2026 5:15 AM**.
 
 ## Right now
 
 - **21** of 27 containers and VMs running
 - **28** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.32, up 4h 28m, RAM 38.0 GB of 91.7 GB
-- TrueNAS pools: Safety 60%, protected 32%, tank 93%, tank2 50%
+- Proxmox host **pve**: Proxmox VE 9.2.32, up 1d 4h, RAM 41.2 GB of 91.7 GB
+- TrueNAS pools: Safety 60%, protected 32%, tank 93%, tank2 51%
 
 !!! warning "Needs a look"
 
@@ -19,7 +19,11 @@ Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 26, 202
 
 ## This week in the lab
 
-Multiple containers including dispatcharr, homarr, patchmon, and others were removed or added, while the Proxmox VE kernel and system version were updated. Several incidents occurred involving failed containers, OOM kills on llama-server and ai, and a timeout in the pve-cluster service.
+Multiple containers were removed on November 20, including homarr, patchmon, kometa, jelly-seerr, plex-seerr, tautulli, navidrome, audiobookshelf, komga, speedtest-tracker, qui, Monitoring, agregarr, sparkyfitness, ntfy, and uptimekuma. A new container for dispatcharr was added on November 25, while the Proxmox VE kernel and system version were updated on November 26 and 21 respectively. Several incidents occurred involving exit codes on jarvis-snapshot, unifi-os-server, and scrypted, alongside OOM kills for llama-server and an AI process, plus a pve-cluster timeout.
+
+**2026-11-27**
+
+- Incident: jarvis-snapshot failed on pve (exit-code)
 
 **2026-11-26**
 
@@ -66,7 +70,3 @@ Multiple containers including dispatcharr, homarr, patchmon, and others were rem
 - Removed: CT 123 sparkyfitness
 - Removed: CT 129 ntfy
 - … and 2 more ([changelog](changelog.md))
-
-**2026-11-19**
-
-- CT 115 Amp-UI: start at boot on

@@ -2,6 +2,10 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-27
+
+- Incident: jarvis-snapshot failed on pve (exit-code)
+
 ## 2026-11-26
 
 - Kernel on pve: Linux 7.0.14-29-pve → Linux 7.0.14-30-pve
