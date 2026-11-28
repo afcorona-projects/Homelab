@@ -1,6 +1,6 @@
 # Network and routes
 
-Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 27, 2026 5:10 AM.
+Caddy (CT 101) sites, from the copy of its Caddyfile taken Nov 28, 2026 5:10 AM.
 
 ```mermaid
 flowchart LR

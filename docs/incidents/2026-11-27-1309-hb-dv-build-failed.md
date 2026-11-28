@@ -1,0 +1,1 @@
+--8<-- "incidents/2026-11-27-1309-hb-dv-build-failed.md"

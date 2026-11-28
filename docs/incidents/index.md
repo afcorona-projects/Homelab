@@ -4,6 +4,8 @@ OOM kills and failed services Jarvis found in Loki, newest first. Each one is wr
 
 | When | What | Where |
 |---|---|---|
+| Nov 27, 2026 1:09 PM | [hb-dv-build failed on encoder (exit-code)](2026-11-27-1309-hb-dv-build-failed.md) | encoder |
+| Nov 27, 2026 5:45 AM | [jarvis-snapshot failed on pve (exit-code)](2026-11-27-0545-jarvis-snapshot-failed.md) | pve |
 | Nov 26, 2026 5:45 AM | [jarvis-snapshot failed on pve (exit-code)](2026-11-26-0545-jarvis-snapshot-failed.md) | pve |
 | Nov 26, 2026 12:48 AM | [bd6890ba914464281443b114c638d97ba040751c5d0b168cdcdec79ae36da3bf-4f47cf8f3c0ba540 failed on unifi-os-server (exit-code)](2026-11-26-0048-bd6890ba914464281443b114c638d97ba040751c.md) | unifi-os-server |
 | Nov 25, 2026 4:31 AM | [scrypted failed on scrypted (exit-code)](2026-11-25-0431-scrypted-failed.md) | scrypted |

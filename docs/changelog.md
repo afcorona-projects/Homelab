@@ -2,6 +2,11 @@
 
 What changed in the lab, newest first, found by comparing each night's snapshot with the one before.
 
+## 2026-11-28
+
+- Incident: jarvis-snapshot failed on pve (exit-code)
+- Incident: hb-dv-build failed on encoder (exit-code)
+
 ## 2026-11-27
 
 - Incident: jarvis-snapshot failed on pve (exit-code)

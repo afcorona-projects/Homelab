@@ -4,14 +4,14 @@
 
     These pages document a home lab and are written every night by Jarvis, a self-hosted assistant that reads Proxmox, TrueNAS, Uptime Kuma, Caddy and Loki. This copy is published from the private one: LAN addresses are swapped for machine names, the home domain is example.com, and private notes stay at home.
 
-Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 27, 2026 5:15 AM**.
+Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 28, 2026 5:15 AM**.
 
 ## Right now
 
 - **21** of 27 containers and VMs running
 - **28** of 29 Uptime Kuma monitors up
-- Proxmox host **pve**: Proxmox VE 9.2.32, up 1d 4h, RAM 41.2 GB of 91.7 GB
-- TrueNAS pools: Safety 60%, protected 32%, tank 93%, tank2 51%
+- Proxmox host **pve**: Proxmox VE 9.2.32, up 2d 4h, RAM 41.6 GB of 91.7 GB
+- TrueNAS pools: Safety 61%, protected 32%, tank 93%, tank2 51%
 
 !!! warning "Needs a look"
 
@@ -19,7 +19,12 @@ Jarvis keeps these pages up to date from the lab itself. Last run: **Nov 27, 202
 
 ## This week in the lab
 
-Multiple containers were removed on November 20, including homarr, patchmon, kometa, jelly-seerr, plex-seerr, tautulli, navidrome, audiobookshelf, komga, speedtest-tracker, qui, Monitoring, agregarr, sparkyfitness, ntfy, and uptimekuma. A new container for dispatcharr was added on November 25, while the Proxmox VE kernel and system version were updated on November 26 and 21 respectively. Several incidents occurred involving exit codes on jarvis-snapshot, unifi-os-server, and scrypted, alongside OOM kills for llama-server and an AI process, plus a pve-cluster timeout.
+Over the last week, the Proxmox VE host received a security update while a new dispatcharr container was deployed and an AI container was removed. Significant concerns include multiple container exit-code failures, an OOM kill on the llama-server, and a cluster timeout event on pve2.
+
+**2026-11-28**
+
+- Incident: jarvis-snapshot failed on pve (exit-code)
+- Incident: hb-dv-build failed on encoder (exit-code)
 
 **2026-11-27**
 
@@ -51,22 +56,3 @@ Multiple containers were removed on November 20, including homarr, patchmon, kom
 
 - Proxmox VE on pve updated: 9.2.27 → 9.2.32
 - Incident: pve-cluster failed on pve2 (timeout)
-
-**2026-11-20**
-
-- Removed: CT 102 homarr
-- Removed: CT 104 patchmon
-- Removed: CT 105 kometa
-- Removed: CT 106 jelly-seerr
-- Removed: CT 107 plex-seerr
-- Removed: CT 110 tautulli
-- Removed: CT 111 navidrome
-- Removed: CT 113 audiobookshelf
-- Removed: CT 114 komga
-- Removed: CT 117 speedtest-tracker
-- Removed: CT 118 qui
-- Removed: CT 121 Monitoring
-- Removed: CT 122 agregarr
-- Removed: CT 123 sparkyfitness
-- Removed: CT 129 ntfy
-- … and 2 more ([changelog](changelog.md))
